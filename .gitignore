@@ -1,0 +1,24 @@
+# Dependency directory
+node_modules
+
+# Editors
+.idea
+.vscode
+.history
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# API keys and secrets
+.env
+
+# Other
+debug.log
+yarn.lock
+dump
+dist.zip
+*.log
