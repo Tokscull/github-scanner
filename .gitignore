@@ -14,7 +14,7 @@ Thumbs.db
 dist/**/*
 
 # API keys and secrets
-.env
+*.env
 
 # Other
 debug.log
