@@ -1,4 +1,7 @@
 # Simple github scanner (graphql express server)
+
+*Version with React Apollo UI you can find in `with-client` branch
+
 - get user repositories (based on access-token)
 ```graphql
 query {
@@ -35,7 +38,7 @@ query {
 }
 ```
 
-#Usage
+# Usage
 1. Clone repo
 2. Create `.env` file in root directory and copy content from `.env.example` into it
 3. Run in console `npm install`
