@@ -70,6 +70,7 @@ function App() {
                         <p><b>Owner:</b> {repoDetails.gitHubRepoDetails.owner}</p>
                         <p><b>Size:</b> {repoDetails.gitHubRepoDetails.size} Kb</p>
                         <p><b>Type:</b> {repoDetails.gitHubRepoDetails.isPrivate ? 'Private' : 'Public'}</p>
+                        <p><b>Total Files:</b> {repoDetails.gitHubRepoDetails.totalFiles}</p>
                         <p><b>Active webhooks:</b> (Total: {repoDetails.gitHubRepoDetails.webhooks.length})</p>
                         <ul>
                             {repoDetails.gitHubRepoDetails.webhooks.map(el => (
